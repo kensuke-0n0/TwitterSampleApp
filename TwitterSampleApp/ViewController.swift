@@ -18,3 +18,4 @@ class ViewController: UIViewController {
 }
 
 var hello = "Hello, Hello"
+var hogehoge = "Hello, Hello"
