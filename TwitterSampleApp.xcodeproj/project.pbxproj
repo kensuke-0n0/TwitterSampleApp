@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		AFDD0EAC2BAB2C63000653C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD0EAB2BAB2C63000653C9 /* AppDelegate.swift */; };
 		AFDD0EAE2BAB2C63000653C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD0EAD2BAB2C63000653C9 /* SceneDelegate.swift */; };
-		AFDD0EB02BAB2C63000653C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD0EAF2BAB2C63000653C9 /* ViewController.swift */; };
 		AFDD0EB32BAB2C63000653C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDD0EB12BAB2C63000653C9 /* Main.storyboard */; };
 		AFDD0EB52BAB2C66000653C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDD0EB42BAB2C66000653C9 /* Assets.xcassets */; };
 		AFDD0EB82BAB2C66000653C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDD0EB62BAB2C66000653C9 /* LaunchScreen.storyboard */; };
+		AFDD0EC42BAF32E3000653C9 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD0EC32BAF32E3000653C9 /* TimeLineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AFDD0EA82BAB2C63000653C9 /* TwitterSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter\U001fSampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDD0EAB2BAB2C63000653C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFDD0EAD2BAB2C63000653C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFDD0EAF2BAB2C63000653C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFDD0EB22BAB2C63000653C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFDD0EB42BAB2C66000653C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFDD0EB72BAB2C66000653C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFDD0EB92BAB2C66000653C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDD0EC32BAF32E3000653C9 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				AFDD0EAB2BAB2C63000653C9 /* AppDelegate.swift */,
 				AFDD0EAD2BAB2C63000653C9 /* SceneDelegate.swift */,
-				AFDD0EAF2BAB2C63000653C9 /* ViewController.swift */,
+				AFDD0EC32BAF32E3000653C9 /* TimeLineViewController.swift */,
 				AFDD0EB12BAB2C63000653C9 /* Main.storyboard */,
 				AFDD0EB42BAB2C66000653C9 /* Assets.xcassets */,
 				AFDD0EB62BAB2C66000653C9 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDD0EB02BAB2C63000653C9 /* ViewController.swift in Sources */,
 				AFDD0EAC2BAB2C63000653C9 /* AppDelegate.swift in Sources */,
 				AFDD0EAE2BAB2C63000653C9 /* SceneDelegate.swift in Sources */,
+				AFDD0EC42BAF32E3000653C9 /* TimeLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65S5SNW79U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Twitter\U001fSampleApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65S5SNW79U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Twitter\U001fSampleApp/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
