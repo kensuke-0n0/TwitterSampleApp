@@ -10,9 +10,6 @@ import UIKit
 class TimeLineViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    
-    
-    
     override func viewDidLoad() {
         
         tableView.dataSource = self
