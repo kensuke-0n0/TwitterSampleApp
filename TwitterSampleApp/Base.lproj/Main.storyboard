@@ -30,14 +30,21 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XLogo" translatesAutoresizingMaskIntoConstraints="NO" id="g6v-gA-3rD">
+                                <rect key="frame" x="175" y="50" width="43" height="49"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="p40-fe-DBE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="H5l-3j-0pN" firstAttribute="top" secondItem="p40-fe-DBE" secondAttribute="top" constant="50" id="BaW-Ab-pNO"/>
                             <constraint firstAttribute="bottom" secondItem="H5l-3j-0pN" secondAttribute="bottom" id="Ber-do-yuV"/>
+                            <constraint firstItem="g6v-gA-3rD" firstAttribute="top" secondItem="wVb-An-XyM" secondAttribute="top" constant="50" id="Fec-Ts-LHt"/>
                             <constraint firstItem="H5l-3j-0pN" firstAttribute="trailing" secondItem="p40-fe-DBE" secondAttribute="trailing" id="MCb-an-IjI"/>
+                            <constraint firstItem="p40-fe-DBE" firstAttribute="trailing" secondItem="g6v-gA-3rD" secondAttribute="trailing" constant="175" id="dix-ZS-Rh0"/>
                             <constraint firstItem="H5l-3j-0pN" firstAttribute="leading" secondItem="p40-fe-DBE" secondAttribute="leading" id="fho-lC-CAy"/>
+                            <constraint firstItem="H5l-3j-0pN" firstAttribute="top" secondItem="g6v-gA-3rD" secondAttribute="bottom" constant="10" id="nhm-zr-FJV"/>
+                            <constraint firstItem="g6v-gA-3rD" firstAttribute="leading" secondItem="p40-fe-DBE" secondAttribute="leading" constant="175" id="yjK-a4-iX3"/>
                         </constraints>
                     </view>
                     <connections>
@@ -50,6 +57,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="XLogo" width="112.5" height="112.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
