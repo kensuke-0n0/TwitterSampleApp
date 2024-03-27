@@ -5,7 +5,6 @@
 //  Created by にしいけんすけ on 2024/03/24.
 //
 
-import Foundation
 import UIKit
 
 class TimeLineViewController: UIViewController {
