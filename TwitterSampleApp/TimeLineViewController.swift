@@ -14,6 +14,7 @@ class TimeLineViewController: UIViewController, UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTableView()
+
     }
     
     func configureTableView() {
