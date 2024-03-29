@@ -30,21 +30,35 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XLogo" translatesAutoresizingMaskIntoConstraints="NO" id="FND-vQ-hXZ">
-                                <rect key="frame" x="175" y="50" width="43" height="51"/>
-                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HLn-8A-cdV">
+                                <rect key="frame" x="0.0" y="59" width="393" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XLogo" translatesAutoresizingMaskIntoConstraints="NO" id="66C-AH-Asr">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="66C-AH-Asr" firstAttribute="centerY" secondItem="HLn-8A-cdV" secondAttribute="centerY" id="IMS-xp-HnH"/>
+                                    <constraint firstItem="66C-AH-Asr" firstAttribute="leading" secondItem="HLn-8A-cdV" secondAttribute="leading" id="PNx-ev-uSH"/>
+                                    <constraint firstItem="66C-AH-Asr" firstAttribute="centerX" secondItem="HLn-8A-cdV" secondAttribute="centerX" id="Rfo-VJ-qFh"/>
+                                    <constraint firstItem="66C-AH-Asr" firstAttribute="top" secondItem="HLn-8A-cdV" secondAttribute="top" id="W9H-Lh-cuM"/>
+                                    <constraint firstAttribute="height" constant="50" id="YFf-E3-chJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="66C-AH-Asr" secondAttribute="bottom" id="a7Q-A3-uiW"/>
+                                    <constraint firstAttribute="trailing" secondItem="66C-AH-Asr" secondAttribute="trailing" id="e6F-hT-3ta"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="p40-fe-DBE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="H5l-3j-0pN" firstAttribute="top" secondItem="p40-fe-DBE" secondAttribute="top" constant="50" id="BaW-Ab-pNO"/>
-                            <constraint firstAttribute="bottom" secondItem="H5l-3j-0pN" secondAttribute="bottom" id="Ber-do-yuV"/>
-                            <constraint firstItem="FND-vQ-hXZ" firstAttribute="leading" secondItem="p40-fe-DBE" secondAttribute="leading" constant="175" id="IKH-Dy-vDz"/>
-                            <constraint firstItem="p40-fe-DBE" firstAttribute="trailing" secondItem="FND-vQ-hXZ" secondAttribute="trailing" constant="175" id="LQk-5F-gcd"/>
-                            <constraint firstItem="H5l-3j-0pN" firstAttribute="trailing" secondItem="p40-fe-DBE" secondAttribute="trailing" id="MCb-an-IjI"/>
-                            <constraint firstItem="FND-vQ-hXZ" firstAttribute="top" secondItem="wVb-An-XyM" secondAttribute="top" constant="50" id="c8F-tH-CzK"/>
-                            <constraint firstItem="H5l-3j-0pN" firstAttribute="leading" secondItem="p40-fe-DBE" secondAttribute="leading" id="fho-lC-CAy"/>
-                            <constraint firstItem="H5l-3j-0pN" firstAttribute="top" secondItem="FND-vQ-hXZ" secondAttribute="bottom" constant="8" id="haB-n4-LYD"/>
+                            <constraint firstItem="H5l-3j-0pN" firstAttribute="trailing" secondItem="p40-fe-DBE" secondAttribute="trailing" id="2Lz-wQ-Bzq"/>
+                            <constraint firstItem="HLn-8A-cdV" firstAttribute="trailing" secondItem="p40-fe-DBE" secondAttribute="trailing" id="CVM-WP-vJL"/>
+                            <constraint firstAttribute="bottom" secondItem="H5l-3j-0pN" secondAttribute="bottom" id="F0Z-ZJ-zq3"/>
+                            <constraint firstItem="HLn-8A-cdV" firstAttribute="leading" secondItem="p40-fe-DBE" secondAttribute="leading" id="Gzy-LZ-bVc"/>
+                            <constraint firstItem="H5l-3j-0pN" firstAttribute="top" secondItem="HLn-8A-cdV" secondAttribute="bottom" id="bmc-CG-qra"/>
+                            <constraint firstItem="H5l-3j-0pN" firstAttribute="leading" secondItem="p40-fe-DBE" secondAttribute="leading" id="kcT-rs-GMF"/>
+                            <constraint firstItem="HLn-8A-cdV" firstAttribute="top" secondItem="p40-fe-DBE" secondAttribute="top" id="qh7-W6-jhb"/>
                         </constraints>
                     </view>
                     <connections>
