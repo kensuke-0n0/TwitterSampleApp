@@ -13,14 +13,11 @@ class TimeLineViewController: UIViewController, UITableViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        configureTableView()
     }
     
     func configureTableView() {
         tableView.dataSource = self
-        tableView.delegate = self
-        let nib = UINib(nibName: "", bundle: nil)
-        tableView.register(nib, forCellReuseIdentifier: "Cell")
     }
 }
 
