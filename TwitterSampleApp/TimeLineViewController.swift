@@ -13,6 +13,7 @@ class TimeLineViewController: UIViewController, UITableViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = self
         
     }
     
