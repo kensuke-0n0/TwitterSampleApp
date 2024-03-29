@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TimeLineViewController: UIViewController, UITableViewDelegate {
+class TimeLineViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
