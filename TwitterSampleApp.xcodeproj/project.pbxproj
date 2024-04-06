@@ -7,23 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFDD0EAC2BAB2C63000653C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD0EAB2BAB2C63000653C9 /* AppDelegate.swift */; };
-		AFDD0EAE2BAB2C63000653C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD0EAD2BAB2C63000653C9 /* SceneDelegate.swift */; };
-		AFDD0EB32BAB2C63000653C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDD0EB12BAB2C63000653C9 /* Main.storyboard */; };
-		AFDD0EB52BAB2C66000653C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDD0EB42BAB2C66000653C9 /* Assets.xcassets */; };
-		AFDD0EB82BAB2C66000653C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDD0EB62BAB2C66000653C9 /* LaunchScreen.storyboard */; };
-		AFDD0EC42BAF32E3000653C9 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD0EC32BAF32E3000653C9 /* TimeLineViewController.swift */; };
+		AFDD0EC92BC11790000653C9 /* TwitterSampleApp in Resources */ = {isa = PBXBuildFile; fileRef = AFDD0EC82BC11790000653C9 /* TwitterSampleApp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AFDD0EA82BAB2C63000653C9 /* TwitterSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter\U001fSampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFDD0EAB2BAB2C63000653C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFDD0EAD2BAB2C63000653C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFDD0EB22BAB2C63000653C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFDD0EB42BAB2C66000653C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AFDD0EB72BAB2C66000653C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AFDD0EB92BAB2C66000653C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFDD0EC32BAF32E3000653C9 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		AFDD0EA82BAB2C63000653C9 /* TwitterSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Twitter\U001fSampleApp.app"; path = "/Users/nishiikensuke/MyApp/iOS/TwitterSampleApp/build/Debug-iphoneos/Twitter\U001fSampleApp.app"; sourceTree = "<absolute>"; };
+		AFDD0EC82BC11790000653C9 /* TwitterSampleApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TwitterSampleApp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,31 +29,8 @@
 		AFDD0E9F2BAB2C63000653C9 = {
 			isa = PBXGroup;
 			children = (
-				AFDD0EAA2BAB2C63000653C9 /* TwitterSampleApp */,
-				AFDD0EA92BAB2C63000653C9 /* Products */,
+				AFDD0EC82BC11790000653C9 /* TwitterSampleApp */,
 			);
-			sourceTree = "<group>";
-		};
-		AFDD0EA92BAB2C63000653C9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AFDD0EA82BAB2C63000653C9 /* TwitterSampleApp.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		AFDD0EAA2BAB2C63000653C9 /* TwitterSampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				AFDD0EAB2BAB2C63000653C9 /* AppDelegate.swift */,
-				AFDD0EAD2BAB2C63000653C9 /* SceneDelegate.swift */,
-				AFDD0EC32BAF32E3000653C9 /* TimeLineViewController.swift */,
-				AFDD0EB12BAB2C63000653C9 /* Main.storyboard */,
-				AFDD0EB42BAB2C66000653C9 /* Assets.xcassets */,
-				AFDD0EB62BAB2C66000653C9 /* LaunchScreen.storyboard */,
-				AFDD0EB92BAB2C66000653C9 /* Info.plist */,
-			);
-			path = "Twitter\U001fSampleApp";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,10 +65,11 @@
 				TargetAttributes = {
 					AFDD0EA72BAB2C63000653C9 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
-			buildConfigurationList = AFDD0EA32BAB2C63000653C9 /* Build configuration list for PBXProject "TwitterSampleApp" */;
+			buildConfigurationList = AFDD0EA32BAB2C63000653C9 /* Build configuration list for PBXProject "TwitterSampleApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +78,7 @@
 				Base,
 			);
 			mainGroup = AFDD0E9F2BAB2C63000653C9;
-			productRefGroup = AFDD0EA92BAB2C63000653C9 /* Products */;
+			productRefGroup = AFDD0E9F2BAB2C63000653C9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -125,9 +92,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDD0EB82BAB2C66000653C9 /* LaunchScreen.storyboard in Resources */,
-				AFDD0EB52BAB2C66000653C9 /* Assets.xcassets in Resources */,
-				AFDD0EB32BAB2C63000653C9 /* Main.storyboard in Resources */,
+				AFDD0EC92BC11790000653C9 /* TwitterSampleApp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +103,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDD0EAC2BAB2C63000653C9 /* AppDelegate.swift in Sources */,
-				AFDD0EAE2BAB2C63000653C9 /* SceneDelegate.swift in Sources */,
-				AFDD0EC42BAF32E3000653C9 /* TimeLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AFDD0EB12BAB2C63000653C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFDD0EB22BAB2C63000653C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AFDD0EB62BAB2C66000653C9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFDD0EB72BAB2C66000653C9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AFDD0EBA2BAB2C66000653C9 /* Debug */ = {
@@ -290,6 +233,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65S5SNW79U;
@@ -308,6 +252,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kensuke.Twitter-SampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Twitter\U001fSampleApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65S5SNW79U;
@@ -336,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kensuke.Twitter-SampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Twitter\U001fSampleApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -344,7 +292,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFDD0EA32BAB2C63000653C9 /* Build configuration list for PBXProject "TwitterSampleApp" */ = {
+		AFDD0EA32BAB2C63000653C9 /* Build configuration list for PBXProject "TwitterSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFDD0EBA2BAB2C66000653C9 /* Debug */,
